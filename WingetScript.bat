@@ -14,3 +14,7 @@ winget install Adobe.Acrobat.Reader.32-bit
 if %ERRORLEVEL% EQU 0 Echo Adobe Acrobat  installed successfully. %ERRORLEVEL%
 REM Git
 winget install --id Git.Git -e --source winget
+if %ERRORLEVEL% EQU 0 Echo Github installed successfully. %ERRORLEVEL%
+Rem Oh My Posh
+winget install JanDeDobbeleer.OhMyPosh
+if %ERRORLEVEL% EQU 0 Echo Oh My Posh installed successfully. %ERRORLEVEL%
