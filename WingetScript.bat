@@ -18,3 +18,9 @@ if %ERRORLEVEL% EQU 0 Echo Github installed successfully. %ERRORLEVEL%
 Rem Oh My Posh
 winget install JanDeDobbeleer.OhMyPosh
 if %ERRORLEVEL% EQU 0 Echo Oh My Posh installed successfully. %ERRORLEVEL%
+Rem Microsoft Git 
+winget install Microsoft.Git
+if %ERRORLEVEL% EQU 0 Echo Microsoft Git installed successfully %ERRORLEVEL%
+Rem Visual Studio Code
+winget install Microsoft.VisualStudioCode
+if %ERRORLEVEL% EQU 0 Echo Microsoft Visual Studio Code installed successfully %ERRORLEVEL%
